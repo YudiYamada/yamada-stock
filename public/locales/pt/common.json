@@ -1,0 +1,21 @@
+{
+  "pages": {
+    "products": {
+      "title": "Página de Produtos",
+      "paragraph": "Essa daqui é a página de produtos"
+    },
+    "sales": {
+      "title": "Página de Vendas",
+      "paragraph": "Essa daqui é a página de vendas"
+    }
+  },
+  "components": {
+    "navbar": {
+      "title": "Páginas",
+      "dashboard": "Dashboard",
+      "products": "Produtos",
+      "sales": "Vendas",
+      "titleTwo": "Configurações"
+    }
+  }
+}
