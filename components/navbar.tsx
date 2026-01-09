@@ -13,11 +13,7 @@ import { usePathname } from "next/navigation";
 import LanguageSwitcher from "./button-toggle-language";
 import { useTranslation } from "@/app/i18n/client";
 
-interface NavbarProps {
-  lng: string;
-}
-
-const Navbar = ({ lng }: NavbarProps) => {
+const Navbar = () => {
   const pathname = usePathname();
 
   // 1. Extrai o idioma (ex: /pt/sales -> lng = "pt", rest = "/sales")
